@@ -15,7 +15,7 @@ end
 
 
 git "#{Chef::Config[:file_cache_path]}/balanced-ruby" do
-   repository "https://github.com/rserna2010/balanced-ruby.git"
+   repository "https://github.com/balanced/balanced-ruby.git"
    reference "master"
    action :sync
  end
